@@ -10,11 +10,31 @@ ul {
 
 section.planet-details {
   grid-column-start: 2;
-  color: honeydew;
+  /*color: honeydew;*/
+  /*color: yellow;*/
+  color: gold;
   background-color: black;
   padding: 1rem;
+  font-size: 15pt;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 section.planet-details li {
   padding: 0.175rem;
 }
+
+/*section.planet-details img {
+  float: left;
+  width: 400px;
+  grid-column-start: 3;
+}*/
+
+section.planet-details {
+  background-repeat: no-repeat, repeat;
+  background-size: 1000px;
+}
+
+
+/*section.div.planet-image {
+  grid-column-start: 3;
+}*/

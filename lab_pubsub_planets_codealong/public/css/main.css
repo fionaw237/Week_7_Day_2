@@ -1,11 +1,13 @@
 header.title-bar {
   text-align: center;
   background-color: #dddfd4;
+  /*background-color: palegoldenrod;*/
 }
 h1.page-title {
   margin: 0;
   padding: 1rem 0;
   color: #173e43;
+  font-family: 'Titillium Web', sans-serif;
 }
 body {
   margin: 0;
@@ -13,5 +15,5 @@ body {
 
 main.main-grid-container {
   display: grid;
-  grid-template-columns: 67px auto;
+  grid-template-columns: 150px auto;
 }

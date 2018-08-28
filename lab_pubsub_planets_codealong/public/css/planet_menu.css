@@ -1,14 +1,21 @@
 
 nav.planets-menu {
   background-color: #dddfd4;
+  /*background-color: palegoldenrod;*/
   min-height: 100vh;
   grid-column-start: 1;
+  text-align: right;
+  padding-right: 12px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20pt;
 }
+
 ol {
   list-style-type: none;
   padding: 0;
   margin: 0.675rem 0;
 }
+
 li.planet-menu-item {
   color: #173e43;
   cursor: pointer;
